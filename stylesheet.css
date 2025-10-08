@@ -5,12 +5,14 @@ body{
 header{
     display: flex;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 nav{
     display: flex;
-    justify-content: space-between;
-    flex: 1;
+    justify-content: center;
+    gap: 20px;
     align-items: center;
 }
 
@@ -32,8 +34,8 @@ nav{
 .contact a {
     text-decoration: none;
     color: black;
-    border: 3px solid red;
-    padding: 8px 16px;
+    border: 2px solid red;
+    padding: 9px 16px;
     display: inline-block;
 }
 
