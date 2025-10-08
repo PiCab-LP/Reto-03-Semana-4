@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    gap: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid red;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+
+
+
